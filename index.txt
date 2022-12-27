@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="skyblue">
+    <h1 align="center" >IMDB </h1> 
+
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo">
+                <img src="static\images\imdb.png">
+            </div>
+            
+        <div class="rightNav" align="right">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+
+    
+    <table border="5" align="center" bgcolor="yellow"> 
+        <tr>
+               <h1 align="center"> MOVIES LIST </h1>  
+        </tr>
+        <tr>
+            <th>Id</th>
+            <th>Names</th>
+            <th>YOR</th>
+            <th>Duration</th>
+            <th>Type</th>
+            <th>Cast</th>
+            <th>Rating</th>
+            <th>Link</th>
+        </tr>
+        <tr>
+            <td>
+                1
+            </td>
+            <td>
+             Kantara
+            </td>
+            <td>
+                2022
+            </td>
+            <td>
+                120 min
+            </td>
+            <td>
+                Triller
+            </td>
+            <td>
+                Rishab shetty
+            </td>
+            <td>
+                9.6
+            </td>
+             <td>
+                <button>Details</button>
+             </td>       
+        </tr>
+        <tr>
+            <td>
+                2
+            </td>
+            <td>
+             Yajamana
+            </td>
+            <td>
+                2020
+            </td>
+            <td>
+                115 min
+            </td>
+            <td>
+                Action-Comedy-Drama
+            </td>
+            <td>
+                Darshan Thoogudeepa
+            </td>
+            <td>
+                9.8
+            </td>
+             <td>
+                <button>Details</button>
+             </td>       
+        </tr>
+        <tr>
+            <td>
+                3
+            </td>
+            <td>
+             Vikram
+            </td>
+            <td>
+                2022
+            </td>
+            <td>
+                120 min
+            </td>
+            <td>
+                Action-triller
+            </td>
+            <td>
+                Kamal Hassan
+            </td>
+            <td>
+                8.6
+            </td>
+             <td>
+                <button>Details</button>
+             </td>       
+        </tr>
+        <tr>
+            <td>
+                1
+            </td>
+            <td>
+             Kotigobba 2
+            </td>
+            <td>
+                2019
+            </td>
+            <td>
+                120 min
+            </td>
+            <td>
+                Action-Romance
+            </td>
+            <td>
+                Kiccha Sudeep
+            </td>
+            <td>
+                7.6
+            </td>
+             <td>
+                <button>Details</button>
+             </td>       
+        </tr>
+
+        <tr>
+            <td>
+                1
+            </td>
+            <td>
+             Ek Love Ya
+            </td>
+            <td>
+                2022
+            </td>
+            <td>
+                120 min
+            </td>
+            <td>
+                Jatre
+            </td>
+            <td>
+                rakshitha brother
+            </td>
+            <td>
+                100
+            </td>
+             <td>
+                <button>Details</button>
+             </td>       
+        </tr>
+        
+        
+    </table>
+</body>
+</html>

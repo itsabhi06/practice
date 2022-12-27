@@ -1,0 +1,123 @@
+
+1)Difference between List and Dict
+#list is group of elements seperated by comma, and enclosed with sqare bracket []
+#list are mutable
+#list support slicing
+
+l1=[2,3.6,'abhi',500]
+print(l1)
+
+#dictionaries is group of elements with key and value pair and enclosed with curly bracket {}
+
+dict={'name':'abhi','num':200}
+print(dict)
+
+
+2)if a=[1 2 3 4 5], what is the value of a[-1] ?
+a=[1,2,3,4,5]
+print(a[-1])
+
+
+3)Create a list of integer from 0 to 9.
+
+method 1
+------------
+#list of integer from 0 to 99
+num=[x for x in range(0,100)]
+print(num)
+
+method 2
+------------
+number=int(input("n :"))
+val=0
+l2=[]
+for i in range(0,number+1):
+    if number>=0:
+        l2.append(val)
+        val+=1
+    else:
+        print("Ivalid number")
+print(l2)
+
+4)Numpy
+Numpy is a python library used to working with array for large amount of data
+
+
+
+6)Difference between C and Python Variable
+#variable is a name given to memory location.
+->python is a dynamically typed language, no need to mention the type of the variable in program it is automatically define the type of variable during run time.
+->In C it is a statically typed language , need to be define the data type of variable in the program.
+
+#python --> # a = 10
+#C
+"""
+int a;
+a=10;
+"""
+
+7) star Triangle
+def star(n):
+    num = 2*n - 2  #8
+    for i in range(0, n):
+
+        for j in range(0, num):
+            print(end=" ")
+        num = num - 1
+
+        for j in range(0, i+1):
+            print("* ", end="")
+        print()
+
+n = 9
+star(n)
+
+
+9)Fibonacci sequence
+
+
+def fibonacci(n):
+
+    a = 0
+    b = 1
+
+    if n == 1 :
+        print(a)
+    elif n < 0 :
+        print("invald input")
+    else :
+        print(a)
+        print(b)
+
+        for i in range(2,n):
+            c = a + b
+            a = b
+            b = c
+            print(c)
+fibonacci(10)
+
+
+"""
+SQL
+----
+10)
+PRIMARY KEY -> Primary key is a sql constraints which allow only unique value and it should not be null
+The primary key also perform as a forign key in another table that is usefull to get data from two table   
+
+11)
+select distinct(*) from the tablename;
+
+
+
+#GENERAL
+
+12 & 13
+
+n=int(input("enter the number: "))
+b=bin(n)
+print(f'n -->{b}')
+
+"""
+5 -> 0101
+77 -> 1001101
+"""
